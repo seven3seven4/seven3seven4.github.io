@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="七3七4">
+    <meta name="keywords" content="标签: 无人驾驶, 七3七4">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>七3七4</title>
+    <title>标签: 无人驾驶 | 七3七4</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -154,56 +154,9 @@
 
 </header>
 
-    
-<style>
-    .carousel-control {
-        width: 45px;
-        height: 45px;
-        line-height: 55px;
-        border-radius: 45px;
-        background: transparent;
-        cursor: pointer;
-        z-index: 100;
-    }
-
-    #prev-cover {
-        position: absolute;
-        top: 48%;
-        left: 8px;
-    }
-
-    #next-cover {
-        position: absolute;
-        top: 48%;
-        right: 8px;;
-    }
-
-    #prev-cover i {
-        margin-right: 3px;
-    }
-
-    #next-cover i {
-        margin-left: 3px;
-    }
-
-    .carousel-control:hover {
-        background-color: rgba(0, 0, 0, .4);
-    }
-
-    .carousel-control i {
-        color: #fff;
-        font-size: 2.4rem;
-    }
-</style>
-
-
-
-<div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
-    
-
-    <div class="carousel-item red white-text bg-cover about-cover">
-        <div class="container">
-            <div class="row">
+    <div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
             <div class="title center-align">
@@ -244,151 +197,70 @@
 </script>
 
 
-
-            <div class="cover-btns">
-                <a href="#indexCard" class="waves-effect waves-light btn">
-                    <i class="fa fa-angle-double-down"></i>开始阅读
-                </a>
-
-                
-            </div>
-            <div class="cover-social-link">
-
-
-
-
-
-
-
-
-
-
-
-
-    <a href="https://www.zhihu.com/people/qi-3qi-4/posts" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/qi-3qi-4/posts" data-position="top" data-delay="50">
-        <i class="fab fa-zhihu1">知</i>
-    </a>
-
-
-
-    <a href="https://space.bilibili.com/615513737?spm_id_from=333.1007.0.0" class="tooltipped" target="_blank" data-tooltip="关注我的B站: https://space.bilibili.com/615513737?spm_id_from=333.1007.0.0" data-position="top" data-delay="50">
-        <i>B</i>
-    </a>
-
-
-
-</div>
-        </div>
     </div>
-
-    
 </div>
-
-<script>
-    $(function () {
-        let coverSlider = $('.carousel');
-
-        //用户触摸轮播自动 restartPlay 是否生效
-        let initUserPressedOrDraggedActive = false
-
-        //用户触摸轮播自动 restartPlay
-        function initUserPressedOrDragged(instance) {
-            setInterval(() => {
-                if (instance.pressed || instance.dragged) {
-                    // console.log('initUserPressedOrDragged: ',instance.pressed,instance.dragged)
-                    restartPlay()
-                }
-            }, 1000)
-        }
-
-        coverSlider.carousel({
-            duration: Number('120'),
-            fullWidth: true,
-            indicators: 'false' === 'true',
-            onCycleTo() {
-                if (!initUserPressedOrDraggedActive) {
-                    // console.log('initUserPressedOrDraggedActive')
-                    initUserPressedOrDragged(this)
-                    initUserPressedOrDraggedActive = true
-                }
-            },
-        })
-
-        let carouselIntervalId;
-        
-
-        function restartPlay() {
-            
-        };
-
-        
-        // prev and next cover post.
-        $('#prev-cover').click(function () {
-            coverSlider.carousel('prev');
-            restartPlay();
-        });
-        $('#next-cover').click(function () {
-            coverSlider.carousel('next');
-            restartPlay();
-        });
-        
-    });
-</script>
-
-
 
 <main class="content">
 
     
-    <div id="indexCard" class="index-card">
-        <div class="container ">
-            <div class="card">
-                <div class="card-content">
-                    
 
-                    
-
-                    
-
-                    
-                    <div id="recommend-sections" class="recommend">
-                        
-
-
-
-                    </div>
-                    
-                </div>
+<div id="tags" class="container chip-container">
+    <div class="card">
+        <div class="card-content">
+            <div class="tag-title center-align">
+                <i class="fas fa-tags"></i>&nbsp;&nbsp;文章标签
+            </div>
+            <div class="tag-chips">
+                
+                
+                <a href="/tags/%E6%B8%B8%E6%88%8F/" title="游戏: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="游戏" style="background-color: #F9EBEA;">游戏
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E5%85%83%E5%AE%87%E5%AE%99/" title="元宇宙: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="元宇宙" style="background-color: #F5EEF8;">元宇宙
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E6%97%A0%E4%BA%BA%E9%A9%BE%E9%A9%B6/" title="无人驾驶: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            data-tagname="无人驾驶" style="background-color: #D5F5E3;">无人驾驶
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
-    
+</div>
 
     
 
-    <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
-        <div class="row article-row">
+        <div class="row tags-posts">
             
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
+            
+            <div class="article tag-post col s12 m6 l4" data-tags="无人驾驶" data-aos="fade-up">
                 <div class="card">
                     <a href="/2021/10/05/YJ02-%E6%97%A0%E4%BA%BA%E9%A9%BE%E9%A9%B6%E4%B8%8E%E5%95%86%E5%9C%88/">
-                        <div class="card-image">
+                        <div class="card-image tag-image">
                             
                             <img src="/images/YJ-2021-10-05-05.jpeg" class="responsive-img" alt="无人驾驶与商圈">
                             
                             <span class="card-title">无人驾驶与商圈</span>
                         </div>
                     </a>
-
                     <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                详细内容请通过B站查看视频版:B站
-
-                            
-                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="far fa-clock fa-fw icon-date"></i>2021-10-05
@@ -398,46 +270,28 @@
                                 <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
                                 <a href="/categories/Victor-Yang/" class="post-category">
-                                    Victor Yang
+                                Victor Yang
                                 </a>
                                 
                                 
                             </span>
                         </div>
                     </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E6%97%A0%E4%BA%BA%E9%A9%BE%E9%A9%B6/">
-                            <span class="chip bg-color">无人驾驶</span>
-                        </a>
-                        
-                    </div>
-                    
                 </div>
             </div>
-              <!-- 隐藏某个文章 -->
             
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
+            
+            <div class="article tag-post col s12 m6 l4" data-tags="无人驾驶" data-aos="fade-up">
                 <div class="card">
                     <a href="/2021/10/05/YJ01-%E6%97%A0%E4%BA%BA%E9%A9%BE%E9%A9%B6%E5%B8%A6%E9%A2%86%E7%BD%91%E7%BA%A6%E8%BD%A6%E8%B5%B0%E5%90%91%E4%BD%95%E6%96%B9/">
-                        <div class="card-image">
+                        <div class="card-image tag-image">
                             
                             <img src="/images/YJ-2021-10-05-04.jpg" class="responsive-img" alt="无人驾驶带领网约车走向何方">
                             
                             <span class="card-title">无人驾驶带领网约车走向何方</span>
                         </div>
                     </a>
-
                     <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                详细内容请通过B站查看视频版:B站
-
-                            
-                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="far fa-clock fa-fw icon-date"></i>2021-10-05
@@ -447,175 +301,18 @@
                                 <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
                                 <a href="/categories/Victor-Yang/" class="post-category">
-                                    Victor Yang
+                                Victor Yang
                                 </a>
                                 
                                 
                             </span>
                         </div>
                     </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E6%97%A0%E4%BA%BA%E9%A9%BE%E9%A9%B6/">
-                            <span class="chip bg-color">无人驾驶</span>
-                        </a>
-                        
-                    </div>
-                    
                 </div>
             </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/10/04/YJ07-%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9C%AA%E6%9D%A5%E6%9B%B4%E5%A4%9A%E7%9A%84%E6%9C%BA%E4%BC%9A%E5%9C%A8%E6%B8%B8%E6%88%8F%E8%A1%8C%E4%B8%9A/">
-                        <div class="card-image">
-                            
-                            <img src="/images/YJ-2021-10-04-04.png" class="responsive-img" alt="未来更多的机会在游戏行业">
-                            
-                            <span class="card-title">未来更多的机会在游戏行业</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                此篇文章的主要观点来自Matthew Ball的博客。在多次品读Ball的文章后，我认为Ball提出的观点引人深思，属于彼得·蒂尔所说的好答案（大多数人相信X，但事实确是X的对立面）。深度思考这样的好答案，可以帮助我们更好的把握住未来的机会
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-04
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Victor-Yang/" class="post-category">
-                                    Victor Yang
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E6%B8%B8%E6%88%8F/">
-                            <span class="chip bg-color">游戏</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/10/04/YJ08-%E5%85%83%E5%AE%87%E5%AE%99%E7%89%B9%E6%80%A7/">
-                        <div class="card-image">
-                            
-                            <img src="/images/YJ-2021-10-04-01.png" class="responsive-img" alt="元宇宙特性">
-                            
-                            <span class="card-title">元宇宙特性</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                （视频版B站）
-2021年，元宇宙这个词比较火，很多文章和视频都在讲什么是元宇宙。很多人对元宇宙已经有了自己的认知。但有的时候，只知道它是什么，还不足以准确的把握一些趋势，或抓住潜在的机会。这就好比，20年前，你问我什么是互联网，我跟你说，
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-04
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Victor-Yang/" class="post-category">
-                                    Victor Yang
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%85%83%E5%AE%87%E5%AE%99/">
-                            <span class="chip bg-color">元宇宙</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/10/04/YJ09%20%E5%85%83%E5%AE%87%E5%AE%99%E4%BB%B7%E5%80%BC%E9%93%BE%20%E6%96%87%E7%AB%A0%20a9c335570919418eaa0e95a0e58035fb/">
-                        <div class="card-image">
-                            
-                            <img src="/images/YJ-2021-10-06-01.png" class="responsive-img" alt="元宇宙价值链">
-                            
-                            <span class="card-title">元宇宙价值链</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                如果我们回顾互联网和移动互联网的发展，我们会发现他们从根本上改变了我们的生活、工作和娱乐的每个方式。并且这种改变并不是简单地建立在单一技术的突破上，而是建立在一系列的技术和模式创新之上的。创新之多，改变之广，所以无法用“互联网是信息的高速公
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-04
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Victor-Yang/" class="post-category">
-                                    Victor Yang
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%85%83%E5%AE%87%E5%AE%99/">
-                            <span class="chip bg-color">元宇宙</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
             
         </div>
     </article>
-
 </main>
 
 
